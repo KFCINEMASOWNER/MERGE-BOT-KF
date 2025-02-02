@@ -8,7 +8,7 @@ class Config(object):
     OWNER = os.environ.get("1981280736")
     OWNER_USERNAME = os.environ.get("Ask_any_Movies_1")
     PASSWORD = os.environ.get("KFCINEMAS")
-    DATABASE_URL = os.environ.get("DATABASE_URL")
+    DATABASE_URL = os.environ.get("mongodb+srv://kfcinemas:kfcinemas1@kfcinemas.fbd1x.mongodb.net/?retryWrites=true&w=majority&appName=kfcinemas")
     LOGCHANNEL = os.environ.get("-1002237896833")  # Add channel id as -100 + Actual ID
     GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", "root")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", None)
